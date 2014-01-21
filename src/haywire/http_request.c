@@ -220,6 +220,7 @@ hw_route_entry* get_route_callback(char* url)
         if (found)
         {
             route_entry = (hw_route_entry*)v;
+            break;
         }
     });
      
